@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>MiniShop</title>
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <h2 >Electronica</h2>
+    <main>
+      <h4>Imagenes de Componentes</h4>
+      <!--TODO: agregar enlaces a imagenes  -->
+
+
+      <p>
+          Haz click aquí para ver mas<a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="noopener noreferrer" > 
+            imagenes
+        </a>
+      </p>  
+      
+      <a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="nooper noreferrer">
+        <img src="./assets/04.jpg" alt="Compuerta 74ls04">
+      </a>
+      
+      <hr> <!--Barra vertical-->
+      <h4>Tipos de Compuertas</h4>
+      <!--Elemneto DIV-->
+      <div>
+        <h3><p><strong><em>NUMEROS DE SERIES</em></strong></p></h3>
+        <!--Lista desordenadas-->
+        <ul>
+          <li type="disk">74LS00</li>
+          <li type="square">74LS02</li>
+          <li type="circle">74LS04</li>
+        </ul>
+        <hr>
+
+        <h4>Tipos de motores</h4>
+        <!--Listas ordenadas-->
+        <ol>
+          <li >Motor a pasos</li>
+          <li>Moto Reductor</li>
+          <li><s>Motor tipo CD</s></li>
+        </ol>
+        <hr>
+      </div>
+      <!--Elemento DIV/>-->
+
+      <!--Formulario-->
+      <form action="/enviar-respuesta">
+        <!--Botones de Radio-->
+        <label for="Comprar">
+          <input id="Comprar" name="casilla-de_compra" type="radio" value="comprar" checked>Compara
+        </label><br>
+        
+        <label for="NoComprar">
+          <input id="NoComprar" name="casilla-de_compra" value="no_comprar" type="radio">No Comprar
+        </label><br>
+
+        <!-- casilla de verificacion-->
+        <label for="terminos">
+          <input type="checkbox" id="terminos" value="terminos">Terminos y condiciones
+        </label><br><br>
+        
+        <!--Cuadro de Texto--> 
+        <input type="text" placeholder="Componente" required><br><br>
+
+         <!--Boton para enviar respuesta--> 
+        <button type="submit">ENVIAR</button>
+      </form>
+     </main>
+     <!--Pie de Pagina-->
+     <footer>
+      <p><small>Sin derechos de Autor: <a href="https://www.youtube.com/watch?v=DWcJFNfaw9c" target="_blank">LOL.mp3</a></small></p>
+
+     </footer>
+
+  </body>
+</html>

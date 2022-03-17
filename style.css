@@ -1,5 +1,5 @@
 h1{
-        color: rgb(255, 0, 221);
+        color: rgb(179, 201, 56);
 }
 
 h2 {
@@ -13,18 +13,26 @@ h3 {
  h4 {
         color: rgb(21, 117, 8);
 }
-
-.img {
+ /* Modelo de Caja*/
+.fondo_img {
         background: rgba(182, 182, 182, 0.541);
-        padding: 5px;
-        margin: 5px;
-
+        /*padding: 5px;*/
+        padding-top: 1ch;
+        padding-right: 1ch;
+        padding-bottom: 1ch;
+        padding-left: 1ch;
+        margin: 1px;
+        max-width: 153px;
+        border-width: 10px;
+        border-color: rgb(14, 73, 73);
+        border-style: double;
+        border-radius: 20px;
 }
 .lista-desordenada{
         background: rgb(187, 160, 147);
         padding: 5px;
         margin: 1px;
-
+        
 }
 
 .div-formulario{
@@ -34,7 +42,7 @@ h3 {
 }
 
 .fondo{
-    background: rgb(243, 159, 126);
+    background: rgb(231, 180, 159);
     padding: 5px;
     margin: 5px;
 }
@@ -43,4 +51,33 @@ h3 {
         background: black;
         padding: 5px;
         margin: 5px;
+        max-width: 170px;
+        border-radius: 20px;
+
+}
+
+/*Tipo de fuente */
+.txt{
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;
+}
+
+#tamaño_imagen{
+        width: 130px;
+        border-radius: 10px;
+        
+}
+
+#estilo-letra{
+        font-style: 20px;
+        color: rgb(48, 199, 17);
+        font-family: Haettenschweiler;
+}
+
+#descripcion-img{
+        width: 150px;    
+        padding: 15px;
+        border: 5px double gray;
+        margin: 1px;
+        border-radius: 20px;
 }

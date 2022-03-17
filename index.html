@@ -1,80 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>MiniShop</title>
-    <link href="style.css" rel="stylesheet">
-
+      <title>MiniShop</title>
+      <link href="style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
+
   <body>
     
+    <h1>Sitio</h1>
     <h2 >Electronica</h2>
+
     <main>
-      <h4>Imagenes de Componentes</h4>
-      <!--TODO: agregar enlaces a imagenes  -->
 
+      <div class="fondo">
+        <h4>Imagenes de Componentes</h4>
+        <p> Haz click aquí para ver mas
+          <a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="noopener noreferrer" > imagenes</a>
 
-      <p>
-          Haz click aquí para ver mas<a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="noopener noreferrer" > 
-            imagenes
-        </a>
-      </p>  
-      
-      <a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="nooper noreferrer">
-        <img src="./assets/04.jpg" alt="Compuerta 74ls04">
-      </a>
-      
-      <hr> <!--Barra vertical-->
-      <h4>Tipos de Compuertas</h4>
-      <!--Elemneto DIV-->
-      <div>
-        <h3><p><strong><em>NUMEROS DE SERIES</em></strong></p></h3>
-        <!--Lista desordenadas-->
+        </p> 
+      </div> 
+
+      <div class="base">
+        <div class="fondo_img">
+          <a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="nooper noreferrer">
+            <img src="./assets/04.jpg" alt="Compuerta 74ls04" id="tamaño_imagen"> 
+          </a>
+        </div>
+        
+      </div>
+      <div id="descripcion-img">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+        <hr> <!--Barra vertical-->
+
+      <div class="lista-desordenada"> 
+        <h2 class="txt">Compuertas</h2>
+        <h4>Tipos de Compuertas</h4>
+        <h3>
+          <p><strong><em>NUMEROS DE SERIES</em></strong></p>
+
+        </h3>
+          <!--Lista desordenadas-->
         <ul>
           <li type="disk">74LS00</li>
           <li type="square">74LS02</li>
           <li type="circle">74LS04</li>
+
         </ul>
+      </div>
+
         <hr>
 
+      <div>
+        <h2>Compuertas</h2>
         <h4>Tipos de motores</h4>
-        <!--Listas ordenadas-->
+
+            <!--Listas ordenadas-->
         <ol>
-          <li >Motor a pasos</li>
+          <li id="estilo-letra" >Motor a pasos</li>
           <li>Moto Reductor</li>
           <li><s>Motor tipo CD</s></li>
+
         </ol>
-        <hr>
       </div>
-      <!--Elemento DIV/>-->
 
-      <!--Formulario-->
-      <form action="/enviar-respuesta">
-        <!--Botones de Radio-->
-        <label for="Comprar">
-          <input id="Comprar" name="casilla-de_compra" type="radio" value="comprar" checked>Compara
-        </label><br>
-        
-        <label for="NoComprar">
-          <input id="NoComprar" name="casilla-de_compra" value="no_comprar" type="radio">No Comprar
-        </label><br>
+       <hr>
 
-        <!-- casilla de verificacion-->
-        <label for="terminos">
-          <input type="checkbox" id="terminos" value="terminos">Terminos y condiciones
-        </label><br><br>
-        
-        <!--Cuadro de Texto--> 
-        <input type="text" placeholder="Componente" required><br><br>
+      <div class="div-formulario">
+          <!--Formulario-->
+          <form action="/enviar-respuesta">
+          <!--Botones de Radio-->
+              <label for="Comprar">
+                <input id="Comprar" name="casilla-de_compra" type="radio" value="comprar" checked>Compara
+              </label><br>  
 
-         <!--Boton para enviar respuesta--> 
-        <button type="submit">ENVIAR</button>
-      </form>
-     </main>
-     <!--Pie de Pagina-->
-     <footer>
-      <p><small>Sin derechos de Autor: <a href="https://www.youtube.com/watch?v=DWcJFNfaw9c" target="_blank">LOL.mp3</a></small></p>
+              <label for="NoComprar">
+                <input id="NoComprar" name="casilla-de_compra" value="no_comprar" type="radio">No Comprar
+              </label><br>
 
-     </footer>
+          <!-- casilla de verificacion-->             
+               <label for="terminos">
+                    <input type="checkbox" id="terminos" value="terminos">Terminos y condiciones
+              </label><br><br>  
+
+          <!--Cuadro de Texto--> 
+              <input type="text" placeholder="Componente" required><br><br>
+
+          <!--Boton para enviar respuesta--> 
+               <button type="submit">ENVIAR</button>
+
+        </form>
+      </div>
+    </main>
+    <!--Pie de Pagina-->
+    <footer>
+      <p>
+      <small>Sin derechos de Autor: <a href="https://www.youtube.com/watch?v=DWcJFNfaw9c" target="_blank">LOL.mp3</a></small>
+      </p>
+    </footer>
 
   </body>
 </html>
+
+<!--(HECHO) AGREGAR EN UN DIV L:13 A l:19-->
+<!--(HECHO)agregar en un div L:21 a L:23  -->
+<!--(HECHO) agregar en un div L:25 a L:38  -->
+<!--(HECHO)Poner en un div todo el formulario-->
+<!--(HECHO)a cada div creado añadirle un color de fondo distinto, margen interno y externo-->

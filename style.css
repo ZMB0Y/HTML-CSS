@@ -1,16 +1,46 @@
 h1{
-    color: rgb(255, 0, 221);
+        color: rgb(255, 0, 221);
 }
 
 h2 {
-    color: rgb(56, 4, 104);
+        color: rgb(56, 4, 104);
 }
 
 h3 {
-    color: brown;
+        color: brown;
 }
 
  h4 {
-     color: rgb(21, 117, 8);
+        color: rgb(21, 117, 8);
 }
 
+.img {
+        background: rgba(182, 182, 182, 0.541);
+        padding: 5px;
+        margin: 5px;
+
+}
+.lista-desordenada{
+        background: rgb(187, 160, 147);
+        padding: 5px;
+        margin: 1px;
+
+}
+
+.div-formulario{
+        background: rgb(191, 191, 238);
+        padding: 5px;
+        margin: 5px;
+}
+
+.fondo{
+    background: rgb(243, 159, 126);
+    padding: 5px;
+    margin: 5px;
+}
+
+.base{
+        background: black;
+        padding: 5px;
+        margin: 5px;
+}

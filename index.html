@@ -9,25 +9,34 @@
     
     <h1>Sitio</h1>
     <h2 >Electronica</h2>
+
     <main>
+
+     <div class="fondo">
       <h4>Imagenes de Componentes</h4>
 
       <p>
           Haz click aquí para ver mas<a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="noopener noreferrer" > 
             imagenes
         </a>
-      </p>  
+      </p> 
+    </div> 
+    <div class="base">
+      <div class="img">
+        <a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="nooper noreferrer">
+          <img src="./assets/04.jpg" alt="Compuerta 74ls04">
+        </a>
+      </div>
       
-      <a href="https://es.farnell.com/c/semiconductores-circuitos-integrados/logica/puertas-e-inversores" target="_blank" rel="nooper noreferrer">
-        <img src="./assets/04.jpg" alt="Compuerta 74ls04">
-      </a>
-      
-      <hr> <!--Barra vertical-->
-      <h2>Compuertas</h2>
+    </div>
+    <hr> <!--Barra vertical-->
 
+    <div class="lista-desordenada"> 
+      <h2>Compuertas</h2>
+    
       <h4>Tipos de Compuertas</h4>
       <!--Elemneto DIV-->
-      <div class="Lista">
+     
         <h3><p><strong><em>NUMEROS DE SERIES</em></strong></p></h3>
         <!--Lista desordenadas-->
         <ul>
@@ -35,7 +44,7 @@
           <li type="square">74LS02</li>
           <li type="circle">74LS04</li>
         </ul>
-      </div>
+     </div>
         <hr>
       <div>
         <h2>Compuertas</h2>
@@ -49,30 +58,29 @@
         </ol>
       </div> 
         <hr>
-      
-      <!--Elemento DIV/>-->
+      <div class="div-formulario">
+        <!--Formulario-->
+        <form action="/enviar-respuesta">
+          <!--Botones de Radio-->
+          <label for="Comprar">
+            <input id="Comprar" name="casilla-de_compra" type="radio" value="comprar" checked>Compara
+          </label><br>
+          
+          <label for="NoComprar">
+            <input id="NoComprar" name="casilla-de_compra" value="no_comprar" type="radio">No Comprar
+          </label><br>
 
-      <!--Formulario-->
-      <form action="/enviar-respuesta">
-        <!--Botones de Radio-->
-        <label for="Comprar">
-          <input id="Comprar" name="casilla-de_compra" type="radio" value="comprar" checked>Compara
-        </label><br>
-        
-        <label for="NoComprar">
-          <input id="NoComprar" name="casilla-de_compra" value="no_comprar" type="radio">No Comprar
-        </label><br>
+          <!-- casilla de verificacion-->
+          <label for="terminos">
+            <input type="checkbox" id="terminos" value="terminos">Terminos y condiciones
+          </label><br><br>
+          
+          <!--Cuadro de Texto--> 
+          <input type="text" placeholder="Componente" required><br><br>
 
-        <!-- casilla de verificacion-->
-        <label for="terminos">
-          <input type="checkbox" id="terminos" value="terminos">Terminos y condiciones
-        </label><br><br>
-        
-        <!--Cuadro de Texto--> 
-        <input type="text" placeholder="Componente" required><br><br>
-
-         <!--Boton para enviar respuesta--> 
-        <button type="submit">ENVIAR</button>
+          <!--Boton para enviar respuesta--> 
+          <button type="submit">ENVIAR</button>
+      </div>
       </form>
      </main>
      <!--Pie de Pagina-->
@@ -86,8 +94,8 @@
   </body>
 </html>
 
-<!--TODOS: AGRGAR EN UN DIV L:13 A l:19 -->
-<!-- TODO: agregar en un div L:21 a L:23  -->
-<!-- TODO: agregar en un div L:25 a L:38  -->
-<!--Poner en un div todo el formulario-->
+<!--(HECHO) AGREGAR EN UN DIV L:13 A l:19-->
+<!-- (HECHO)agregar en un div L:21 a L:23  -->
+<!-- (HECHO) agregar en un div L:25 a L:38  -->
+<!--(HECHO)Poner en un div todo el formulario-->
 <!--TODO: a cada div creado añadirle un color de fondo distinto, margen interno y externo-->

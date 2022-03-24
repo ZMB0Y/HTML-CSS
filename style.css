@@ -109,4 +109,46 @@
         
         }
         
+        .base-3{
+            /*position: relative;*/
+            border-style:  double;
+            border-color: lightslategray;
+            /*padding: 300px;*/
+            width: 1500px;
+            height: 500px;
+            display: inline-block;
+
+
+        }
+
+
+        .base-3 > div  {
+            width: 250px;
+            height: 250px;
+            
+            max-width: 250px;
+            max-height: 250px;
+            border: 1px double ;
+            display: inline-block;
+
+        }
+        .caja1{
+            background: lightcyan;
+            
+        }
+        
+        .caja2{
+            background-color: lightgray;
+            
+        }
+
+        .caja3{
+            background: lightpink;
+            
+
+        }
+        .caja4{
+            background: rgb(212, 14, 43);
+            
+        }
         
